@@ -5,10 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1 class="center">Rock Paper Scissors</h1>
+    <h4 class="center">You vs Computer</h4>
+    <div class="scoreboard">
+        <span class="user_score" id="user_score"></span>
+        <span class="colon">:</span>
+        <span class="computer_score" id="computer_score"></span>
+    </div>
+    <div id="winner" class="center"></div>
+    <h3 class="center">Make a move</h3>
+    <div class="items" id="items">
+        <button id="rock" type="button" value="rock" title="rock" class="rock-btn dis-inline">
+            
+        </button>
+        <button id="paper" type="button" value="paper" title="paper" class="paper-btn dis-inline">
+            
+        </button>
+        <button id="scissors" type="button" value="scissors" title="scissors" class="scissors-btn dis-inline">
+            
+        </button>
+        <button id="reset" type="button" value="reset"></button>
+    </div>
+    <div>
+        <p id="message" class="center"></p>
+    </div>
+    <footer>
+        <div>Icons made by 
+            <a href="http://www.freepik.com" title="Freepik">Freepik</a> from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed 
+            by 
+            <a href="http://creativecommons.org/licenses/by/3.0/" 
+            title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+        <div>Icons made by 
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"> Smashicons
+            </a>from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+            is licensed by 
+            <a href="http://creativecommons.org/licenses/by/3.0/" 
+            title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+        <div>Icons made by 
+            <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">
+                Gregor Cresnar</a> from 
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+                is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 
+                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+    </footer>
 
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

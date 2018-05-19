@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font-size: 15px;
+    color: #fff;
+    font-family:Helvetica,sans-serif;;
+}
+.center{
+    text-align: center;
+}
+.black{
+    color: #000;
+}
+.scoreboard{
+    width:400px;
+    height: 100px;
+    background: #000;
+    margin:auto;
+    padding: 3em 0;
+    border: 1px solid #494949;
+    box-shadow: 0px 3px 2px 0px #494949;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+.scoreboard:hover{
+    border:1px solid #fff;
+    box-shadow: 0px 3px 2px 0px #fff;
+}
+.scoreboard:hover > span{
+    color: #fff;
+}
+.user_score, .computer_score, .colon{
+    font-size: 48px;
+    color:#494949;
+    font-weight: 600;
+}
+
+.items{
+    text-align: center;
+}
+.dis-inline{
+    display: inline-block;
+}
+.rock-btn{
+    width: 120px;
+    height: 105px;
+    margin: 0 5px;
+    border: 3px solid #000;
+    background: #fff;
+    z-index:100;
+    background-image: url('./rock.svg');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.paper-btn{
+    width: 100px;
+    height: 105px;
+    margin: 0 5px;
+    border: 3px solid #000;
+    background: #fff;
+    background-image: url('./paper-plane.svg');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.scissors-btn{
+    width: 100px;
+    height: 105px;
+    margin: 0 5px;
+    border: 3px solid #000;
+    background: #fff;
+    background-image: url('./scissors-blk.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#reset{
+    width: 100px;
+    height: 105px;
+    margin: 0 5px;
+    border: 3px solid #000;
+    background: #fff;
+    background-image: url('./refresh.svg');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.items button:hover{
+    box-shadow: 3px 3px 0 #fff;
+    -webkit-transform: translate(-3px,-3px);
+    transform: translate(-3px,-3px);
+    outline: none;
+    cursor: pointer;
+
+}
+#message{
+    margin-top: 2em;
+    font-size: 20px;
+    color: #fff;
+}
+#winner{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 4em;
+}
