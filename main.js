@@ -12,8 +12,6 @@ function computerPlay (){
     return Math.floor(Math.random() * 3);
 }
 const computerSelection = computerPlay();
-//console.log(computerSelection);
-
 
 function playRound(playerSelection, computerSelection){
 
